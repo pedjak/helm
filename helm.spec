@@ -1,3 +1,4 @@
+
 #debuginfo not supported with Go
 %global debug_package %{nil}
 %global package_name helm
