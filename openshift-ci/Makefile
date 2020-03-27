@@ -17,4 +17,5 @@ $(GOLANGCI_LINT):
 lint: $(GOLANGCI_LINT) test-style
 
 .PHONY: unit
+unit: TESTFLAGS += -race -v
 unit: test-unit
